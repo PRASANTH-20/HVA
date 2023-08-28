@@ -1,0 +1,101 @@
+/**{
+	color: whitesmoke;
+}*/
+h1{
+	text-transform: uppercase;
+}
+p{
+	font-style: italic;
+
+}
+#id1{
+	font-size: 20px;
+	color: green;
+	padding: 30px;
+    }
+
+.class1{
+	font-style: italic;
+	color: greenyellow;
+	background-color:;
+}
+
+div > h3{
+	padding: 40;
+	color: darkviolet;
+	letter-spacing: 1rem;
+	text-decoration: line-through;
+}
+#web:link{
+	color: green;
+}
+a:visited{
+	color: orangered;
+}
+div:hover {
+	color:whitesmoke;
+	background-color:mediumaquamarine;
+}
+
+#data{
+	border:5px outset silver;
+	padding: 5px;
+	width: fit-content;
+	border-radius: 25px;
+	background: rgb(10,65,209);
+	background: linear-gradient(15deg, rgba(10,65,209,1) 0%, rgba(84,97,202,1) 23%,
+	 rgba(188,209,222,1) 36%, rgba(37,155,224,1) 56%, rgba(47,172,221,1) 64%,
+	  rgba(178,210,224,1) 79%, rgba(74,110,215,1) 94%);
+}
+.about{
+	color: antiquewhite;
+}
+div>h4{
+	color: floralwhite;
+
+}
+div>#type1{
+	display: inline;
+	width: fit-content;
+	padding: 6px;
+	border:2px solid;
+	border-radius: 25px;
+	background: linear-gradient(0deg,red,darkblue);
+}
+div>#type2{
+	display: inline;
+	width: fit-content;
+	padding: 6px;
+	border:2px solid;
+	border-radius: 25px;
+	background: linear-gradient(0deg,brown,yellow);
+}
+
+span>#weak1{
+	display: inline;
+	width: fit-content;
+	padding: 6px;
+	border: 2px solid;
+	border-radius: 25px;
+	background: hotpink;
+}
+span>#weak2{
+	display: inline;
+	width: fit-content;
+	padding: 6px;
+	border: 2px solid;
+	border-radius: 25px;
+	background: steelblue;
+}
+span>#weak3{
+	display: inline;
+	width: fit-content;
+	padding: 6px;
+	border: 2px solid;
+	border-radius: 25px;
+	background: linear-gradient(0deg,red,darkblue);
+}
+#quote{
+	padding: 10px;
+	border:5px dashed whitesmoke;
+}
