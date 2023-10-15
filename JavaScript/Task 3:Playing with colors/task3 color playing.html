@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Color finder</title>
+    <style>
+        #box {
+            border-radius: 30px;
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            border: 2px dashed black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 ><b>Color Finder</b></h1>
+    <div id="box" ></div>
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('green')">Green</button>
+    <button onclick="changeColor('blue')">Blue</button>
+
+    <script>
+        function changeColor(color) {
+            var box = document.getElementById('box');
+            box.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
