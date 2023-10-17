@@ -1,4 +1,4 @@
-onst isPrime = function (num) {
+const isPrime = function (num) {
     if (num <= 1) {
         return 0; 
     }
