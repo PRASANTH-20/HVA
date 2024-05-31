@@ -1,1 +1,121 @@
+Arrays
+
+1. Basic Array:
+
+a.	let colors =['red','green','blue'];
+b.	console.log(colors[0]);
+c.	colors[1]='yellow';
+	console.log(colors[1]);
+d.	colors.push('purple');
+	console.log(colors[colors.length-1]);
+
+2. Loops for Arrays:
+
+a.	let colors = ["red", "yellow", "blue", "purple"];
+	for (let i = 0; i < colors.length; i++) {
+   		 console.log(colors[i]);
+	}
+b.	let i = 0;
+	while (i < colors.length) {
+    	console.log(colors[i]);
+   	 i++;
+	}
+C.	for (let color of colors) {
+    	console.log(color);
+	}
+
+3. array as an Object
+
+a.	let colors = ["red", "yellow", "blue", "purple"];
+	console.log(typeof colors);
+b.	console.log(colors.length);
+c.	colors.push("orange");
+	console.log(colors);
+d.	colors.pop();
+	console.log(colors);
+e.	let index = colors.indexOf("blue");
+	console.log(index);
+f.	colors.owner = "Your Name";
+	console.log(colors.owner);
+	console.log(colors);
+g.	for (let property in colors) {
+    		console.log(`${property}: ${colors[property]}`);
+	}
+4. fOREACH, map, filter 
+
+a. 	let numbers = [1, 2, 3, 4, 5];
+b. 	numbers.forEach(function(number) {
+	    console.log(number);
+	});
+c.	numbers.forEach(function(number) {
+	    console.log(number * 2);
+	});
+d. 	let squaredNumbers = numbers.map(function(number) {
+	    return number * number;
+	});
+	console.log(squaredNumbers);
+e.	let squaredNumbers = numbers.map(number => number * number);
+	console.log(squaredNumbers); 
+f.	let evenNumbers = numbers.filter(function(number) {
+	    return number % 2 === 0;
+	});
+	console.log(evenNumbers);
+g.	let evenNumbers = numbers.filter(number => number % 2 === 0);
+	console.log(evenNumbers);
+
+5. 	Manipulating Temperatures
+a.	let temperatures = [-3, 14, 22, 5, -10];
+b.	temperatures.forEach(temperature => {
+	    console.log(temperature);
+	});
+c.	temperatures.forEach(temperature => {
+	    let fahrenheit = (temperature * 9/5) + 32;
+	    console.log(fahrenheit);
+	});
+d.	let temperaturesInFahrenheit = temperatures.map(temperature => {
+	    return (temperature * 9/5) + 32;
+	});
+	console.log(temperaturesInFahrenheit);
+e.	let belowFreezing = temperatures.filter(temperature => {
+	    return temperature < 0;
+	});
+	console.log(belowFreezing);
+
+6. Operations on fruits
+a.	let fruits = ["apple", "banana", "cherry", "date"];
+
+b.	fruits.forEach(fruit => {
+	    console.log(fruit.charAt(0).toUpperCase() + fruit.slice(1));
+	});
+
+c.	let reversedFruits = fruits.map(fruit => {
+	    return fruit.split('').reverse().join('');
+	});
+	console.log(reversedFruits); 
+
+d.	let longFruits = fruits.filter(fruit => {
+	    return fruit.length > 5;
+	});
+	console.log(longFruits); 
+
+e.	let aFruitsUpper = fruits.filter(fruit => {
+	    return fruit.includes('a');
+	}).map(fruit => {
+	    return fruit.toUpperCase();
+	});
+	console.log(aFruitsUpper); 
+
+f.	let totalCharacters = 0;
+	fruits.forEach(fruit => {
+	    totalCharacters += fruit.length;
+	});
+	console.log(totalCharacters); 
+
+
+
+
+
+
+
+
 
